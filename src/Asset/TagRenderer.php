@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Asset;
+namespace Uello\WebpackEncoreBundle\Asset;
 
 use Symfony\Component\Asset\Packages;
 use Symfony\Component\DependencyInjection\ServiceLocator;

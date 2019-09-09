@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Tests\Asset;
+namespace Uello\WebpackEncoreBundle\Tests\Asset;
 
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookup;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookup;
 use PHPUnit\Framework\TestCase;
 
 class EntrypointLookupTest extends TestCase
@@ -156,7 +156,7 @@ EOF;
     }
 
     /**
-     * @expectedException \Symfony\WebpackEncoreBundle\Exception\EntrypointNotFoundException
+     * @expectedException \Uello\WebpackEncoreBundle\Exception\EntrypointNotFoundException
      * @expectedExceptionMessage Could not find the entry
      */
     public function testExceptionOnMissingEntry()
@@ -165,7 +165,7 @@ EOF;
     }
 
     /**
-     * @expectedException \Symfony\WebpackEncoreBundle\Exception\EntrypointNotFoundException
+     * @expectedException \Uello\WebpackEncoreBundle\Exception\EntrypointNotFoundException
      * @expectedExceptionMessage Try "my_entry" instead
      */
     public function testExceptionOnEntryWithExtension()

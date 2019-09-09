@@ -8,7 +8,7 @@ the dynamic `script` and `link` tags needed.
 Install the bundle with:
 
 ```
-composer require symfony/webpack-encore-bundle
+composer require uello/webpack-encore-bundle
 ```
 
 ## Configuration
@@ -124,7 +124,7 @@ rendered. For example, in a controller:
 ```php
 // src/Controller/SomeController.php
 
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
 
 class SomeController
 {
@@ -142,5 +142,5 @@ class SomeController
 ```
 
 If you have multiple builds, you can also autowire
-`Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface`
+`Uello\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface`
 and use it to get the `EntrypointLookupInterface` object for any build.

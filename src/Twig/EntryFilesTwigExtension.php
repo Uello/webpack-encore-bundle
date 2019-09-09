@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Twig;
+namespace Uello\WebpackEncoreBundle\Twig;
 
 use Psr\Container\ContainerInterface;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
-use Symfony\WebpackEncoreBundle\Asset\TagRenderer;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\TagRenderer;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 

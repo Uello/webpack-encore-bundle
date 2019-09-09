@@ -7,14 +7,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Tests\Asset;
+namespace Uello\WebpackEncoreBundle\Tests\Asset;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Asset\Packages;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollection;
-use Symfony\WebpackEncoreBundle\Asset\IntegrityDataProviderInterface;
-use Symfony\WebpackEncoreBundle\Asset\TagRenderer;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupCollection;
+use Uello\WebpackEncoreBundle\Asset\IntegrityDataProviderInterface;
+use Uello\WebpackEncoreBundle\Asset\TagRenderer;
 
 class TagRendererTest extends TestCase
 {

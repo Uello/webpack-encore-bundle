@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Tests\Asset;
+namespace Uello\WebpackEncoreBundle\Tests\Asset;
 
 use Fig\Link\GenericLinkProvider;
 use Fig\Link\Link;
@@ -16,8 +16,8 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 use PHPUnit\Framework\TestCase;
-use Symfony\WebpackEncoreBundle\Asset\TagRenderer;
-use Symfony\WebpackEncoreBundle\EventListener\PreLoadAssetsEventListener;
+use Uello\WebpackEncoreBundle\Asset\TagRenderer;
+use Uello\WebpackEncoreBundle\EventListener\PreLoadAssetsEventListener;
 
 class PreLoadAssetsEventListenerTest extends TestCase
 {

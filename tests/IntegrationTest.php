@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Tests;
+namespace Uello\WebpackEncoreBundle\Tests;
 
 use Psr\Log\LogLevel;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
@@ -17,11 +17,11 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Log\Logger;
 use Symfony\Component\Routing\RouteCollectionBuilder;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
-use Symfony\WebpackEncoreBundle\Asset\TagRenderer;
-use Symfony\WebpackEncoreBundle\CacheWarmer\EntrypointCacheWarmer;
-use Symfony\WebpackEncoreBundle\WebpackEncoreBundle;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\TagRenderer;
+use Uello\WebpackEncoreBundle\CacheWarmer\EntrypointCacheWarmer;
+use Uello\WebpackEncoreBundle\WebpackEncoreBundle;
 use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Bundle\TwigBundle\TwigBundle;

@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Asset;
+namespace Uello\WebpackEncoreBundle\Asset;
 
 use Psr\Cache\CacheItemPoolInterface;
-use Symfony\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
+use Uello\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
 
 /**
  * Returns the CSS or JavaScript files needed for a Webpack entry.

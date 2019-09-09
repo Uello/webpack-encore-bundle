@@ -7,13 +7,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\EventListener;
+namespace Uello\WebpackEncoreBundle\EventListener;
 
 use Fig\Link\GenericLinkProvider;
 use Fig\Link\Link;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
-use Symfony\WebpackEncoreBundle\Asset\TagRenderer;
+use Uello\WebpackEncoreBundle\Asset\TagRenderer;
 
 /**
  * @author Ryan Weaver <ryan@symfonycasts.com>
