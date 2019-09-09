@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\DependencyInjection;
+namespace Uello\WebpackEncoreBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Alias;
@@ -18,8 +18,8 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\WebLink\EventListener\AddLinkHeaderListener;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookup;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookup;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
 
 final class WebpackEncoreExtension extends Extension
 {

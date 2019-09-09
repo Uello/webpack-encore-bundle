@@ -7,13 +7,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\CacheWarmer;
+namespace Uello\WebpackEncoreBundle\CacheWarmer;
 
 use Psr\Cache\CacheItemPoolInterface;
 use Symfony\Bundle\FrameworkBundle\CacheWarmer\AbstractPhpFileCacheWarmer;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookup;
-use Symfony\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookup;
+use Uello\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
 
 class EntrypointCacheWarmer extends AbstractPhpFileCacheWarmer
 {

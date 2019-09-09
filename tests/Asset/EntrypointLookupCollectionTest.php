@@ -7,17 +7,17 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Tests\Asset;
+namespace Uello\WebpackEncoreBundle\Tests\Asset;
 
 use Symfony\Component\DependencyInjection\ServiceLocator;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollection;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupCollection;
 use PHPUnit\Framework\TestCase;
-use Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
+use Uello\WebpackEncoreBundle\Asset\EntrypointLookupInterface;
 
 class EntrypointLookupCollectionTest extends TestCase
 {
     /**
-     * @expectedException \Symfony\WebpackEncoreBundle\Exception\UndefinedBuildException
+     * @expectedException \Uello\WebpackEncoreBundle\Exception\UndefinedBuildException
      * @expectedExceptionMessage The build "something" is not configured
      */
     public function testExceptionOnMissingEntry()
@@ -27,7 +27,7 @@ class EntrypointLookupCollectionTest extends TestCase
     }
 
     /**
-     * @expectedException \Symfony\WebpackEncoreBundle\Exception\UndefinedBuildException
+     * @expectedException \Uello\WebpackEncoreBundle\Exception\UndefinedBuildException
      * @expectedExceptionMessage There is no default build configured: please pass an argument to getEntrypointLookup().
      */
     public function testExceptionOnMissingDefaultBuildEntry()

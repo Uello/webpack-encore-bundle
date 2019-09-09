@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Asset;
+namespace Uello\WebpackEncoreBundle\Asset;
 
 use Symfony\Contracts\Service\ResetInterface;
-use Symfony\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
+use Uello\WebpackEncoreBundle\Exception\EntrypointNotFoundException;
 
 interface EntrypointLookupInterface extends ResetInterface
 {

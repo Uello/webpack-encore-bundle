@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle;
+namespace Uello\WebpackEncoreBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

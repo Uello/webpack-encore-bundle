@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\WebpackEncoreBundle\Asset;
+namespace Uello\WebpackEncoreBundle\Asset;
 
-use Symfony\WebpackEncoreBundle\Exception\UndefinedBuildException;
+use Uello\WebpackEncoreBundle\Exception\UndefinedBuildException;
 use Psr\Container\ContainerInterface;
 
 /**
